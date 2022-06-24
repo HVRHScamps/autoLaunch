@@ -28,7 +28,7 @@ def main(robot: libhousy.robot):
         ticks = robot.shootCounter.Get() - lastCount
         lastCount = robot.shootCounter.Get()
 
-    if ticks > 2000:
+    if ticks > 1800:
         launch(robot)
 
     else:
