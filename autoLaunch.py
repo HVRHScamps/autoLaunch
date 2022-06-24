@@ -11,8 +11,9 @@ def launch(robot):
 firstRun = True
 lastCount = 0
 ticks = 0
+launchTimer = 0
 def main(robot: libhousy.robot):
-    global firstRun, lastCount, ticks
+    global firstRun, lastCount, ticks, launchTimer
     if firstRun:
         firstRun = False
         launchTimer = time.time()
