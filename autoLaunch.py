@@ -6,4 +6,4 @@ def main(robot: libhousy.robot):
     print("Hello World!")
     
     # After everything is done, we tell the main program to stop us
-    return libhousy.
+    return libhousy.DONE
